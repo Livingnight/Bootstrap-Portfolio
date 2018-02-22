@@ -1,0 +1,264 @@
+body {
+    background-image: url("../images/darkness.png");
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    height: 100%;
+}
+
+.navbar-inverse{
+    /*background:;*/
+    background-image: url("../images/darkness.png");
+    border-bottom: 3px solid darkblue;
+    padding-bottom: 15px;
+    position: relative;
+    height: 100px;
+
+    /*margin-bottom: 45px;*/
+}
+.navbar-inverse .container{
+    /*width: 960px;*/
+}
+.navbar-header{
+    background: darkred;
+    height: 93px;
+    color: silver;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#links {
+    display: inline;
+}
+.navbar-header p {
+    /*margin: 25px 25px 25px 50px;*/
+    /*color: #ffffff;*/
+    font-size: 24px;
+    /*padding: 5px 0 0 15px;*/
+    color: silver;
+}
+.navbar-right{
+    display: inline;
+    /*padding: 20px;*/
+}
+.navbar-right li{
+    border-right: 1px solid crimson;
+    font-size: 16px;
+    margin: 20px 0 20px 10px;
+}
+.navbar-right li:last-child{
+    border-right: none;
+}
+#main-content{
+    /*width: 960px;*/
+}
+#main-content-column-left{
+    background: darkred;
+    /*float: left;*/
+    /*width: 650px;*/
+    padding-bottom: 5px;
+    color: silver;
+    border: 1px solid darkblue;
+}
+#main-content-column-left header{
+    font-size: 26px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+#main-content-column-left img{
+    float: left;
+    margin-right: 10px;
+}
+#main-content-column-left p{
+    font-size: 18px;
+    text-indent: 15px;
+}
+#main-content-column-left .btn{
+    background: darkblue;
+    border: 1px solid darkolivegreen;
+}
+#connect-content{
+    background: darkred;
+    /*float: right;*/
+    /*width: 270px;*/
+    color: silver;
+    padding-bottom: 10px;
+    border: 1px solid darkblue;
+}
+#connect-content header{
+    font-size: 26px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+#connect-content .container-fluid{
+
+}
+#connect-content img{
+    height: 60px;
+    width: 60px;
+    margin-left: 0;
+}
+#connect-content .col-xs-12 img{
+    display: block;
+    margin-left: auto;
+    /*margin-right: auto;*/
+}
+
+.footer {
+    border-top: 3px solid darkblue;
+    background: darkred;
+    position: absolute;
+    bottom: 0;
+    height: 75px;
+    text-align: center;
+    padding-top: 25px;
+    width: 100%;
+    color: silver;
+}
+#img1{
+    background: darkred url("../images/05-technics-q-c-300-125-2.jpg");
+    height: 100px;
+}
+#project1{
+    background-color: darkblue;
+    color: silver;
+    opacity: .75;
+    margin: 25px 15px 25px 10px;
+    text-align: center;
+    padding: 10px;
+    /*width: 100%;*/
+}
+#img2{
+    background: darkred url("../images/06-technics-q-c-300-125-4.jpg");
+    height: 100px;
+}
+#project2{
+    background-color: darkblue;
+    color: silver;
+    opacity: .75;
+    margin:25px 15px 25px 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+#img3 {
+    background: darkred url("../images/02-abstract-q-c-300-125-7.jpg");
+    height: 100px;
+    margin-top: 10px;
+}
+#project3 {
+    background-color: darkblue;
+    color: silver;
+    opacity: .75;
+    margin:25px 15px 25px 10px;
+    text-align: center;
+    padding: 10px;
+}
+#img4 {
+    background: darkred url("../images/01-abstract-q-c-300-125-6.jpg");
+    height: 100px;
+    margin-top: 10px;
+}
+#project4 {
+    background-color: darkblue;
+    color: silver;
+    opacity: .75;
+    margin:25px 15px 25px 10px;
+    text-align: center;
+    padding: 10px;
+}
+/*.col-xs-12 .navbar-header{*/
+    /*width: 100%;*/
+
+/*!*body {*!*/
+    /*background-image: url("../images/intersection.png");*/
+    /*color: #777777;*/
+    /*font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;*/
+    /*height: 100%;*/
+/*}*/
+
+/*.navbar-default {*/
+
+    /*background-color: white;*/
+    /*border: 1px solid #cccccc;*/
+    /*position: relative;*/
+    /*height:100px;*/
+    /*margin: 0 auto 45px auto;*/
+/*}*/
+
+/*.navbar-default .container{*/
+    /*width: 960px;*/
+/*}*/
+/*.navbar-header .col-md-4{*/
+    /*float: right;*/
+/*}*/
+/*.navbar-header {*/
+    /*background-color: #4aaaa5;*/
+    /*color: #ffffff;*/
+    /*position: absolute;*/
+    /*!*left: 25%;*!*/
+    /*height: 100%;*/
+    /*!*text-align: center;*!*/
+    /*line-height: 100px;*/
+    /*width: 250px;*/
+    /*font-size: 28px;*/
+/*}*/
+
+/*.navbar-nav a{*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*float: right;*/
+    /*!*right: 26.5%;*!*/
+    /*font-size: 22px;*/
+    /*!*margin: 25px;*!*/
+    /*color: #ffffff;*/
+/*}*/
+/*#main-content {*/
+    /*width: 960px;*/
+/*}*/
+/*#main-content-column-left{*/
+    /*width: 650px;*/
+    /*background: #ffffff;*/
+/*}*/
+
+/*#main-content-column-left header {*/
+    /*color: #4aaaa5;*/
+    /*border-bottom: 1px solid #dddddd;*/
+    /*font-size: 28px;*/
+    /*margin-bottom: 15px;*/
+    /*padding: 15px;*/
+    /*letter-spacing: 2px;*/
+/*}*/
+/*#main-content-column-left{*/
+    /*font-size: 16px;*/
+/*}*/
+/*#connect-content{*/
+    /*width:270px;*/
+    /*background: #ffffff;*/
+    /*float: right;*/
+    /*padding: 0;*/
+    /*height: 200px;*/
+/*}*/
+/*#connect-content a{*/
+    /*margin-left: 20px;*/
+/*}*/
+/*.container #connect-content{*/
+    /*width:270px;*/
+/*}*/
+/*#connect-content header{*/
+    /*font-size: 22px;*/
+    /*color: #4aaaa5;*/
+    /*border-bottom: 1px solid #dddddd;*/
+    /*margin: 10px 10px 45px 10px;*/
+    /*padding-bottom: 10px;*/
+/*}*/
+/*#connect-content img{*/
+    /*height: 60px;*/
+    /*width: 60px;*/
+/*}*/
+/*#main-content-column-left img {*/
+    /*float: left;*/
+    /*margin-right: 10px;*/
+    /*margin-bottom: 15px;*/
+/*}*/
+
+/*}*/

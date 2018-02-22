@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
+    <title>About me!</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class = "row">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header col-md-4 col-xs-12">
+
+                <p class = "bg-primary"><h3>James Jernigan</h3></p>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="col-md-8 col-xs-12 center-block">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href = "contact.html">Contact</a></li>
+                    <li><a href = "portfolio.html">Portfolio</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--container for all of my content, main content and connect-->
+<div class = "container" id = "main-content">
+    <!--making a row in the container to hold my content-->
+    <div class ="row">
+        <!--making a column that takes up half the page on a small screen-->
+        <div class = "col-xs-12 col-md-8" id = "main-content-column-left">
+            <!--<div class = "container">-->
+            <header class = "content-header"><h3>About Me</h3></header>
+
+            <div class = "container-fluid">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputMessage">Your Message</label>
+                        <textarea class = "form-control" rows = "10"id="inputMessage"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+
+            </div>
+        </div>
+        <div class = "col-xs-12 col-md-3 col-md-offset-1" id = "connect-content">
+            <!--<div class="container">-->
+            <header class = "connect-header "><h3>Connect With Me!</h3></header>
+            <div class = "container-fluid center-block">
+            <a href = "https://github.com/Livingnight" target = "_blank">
+                <img src = "assets/images/github.png" alt = "responsive image">
+            </a>
+            <a href = "https://www.linkedin.com/in/jay-jernigan-3175a2a1/" target = "_blank">
+                <img src = "assets/images/linkedin.png">
+            </a>
+            <a href = "https://stackoverflow.com/users/9140944/livingnight" target = "_blank">
+                <img src = "assets/images/stack-overflow.png">
+            </a>
+        </div>
+    </div>
+</div>
+<!--<div id ="push"></div>-->
+</div>
+
+<div class = "footer text-center">
+    <div class = "container">
+        <div class = "row">
+            <p>
+                &copy; 2018 James Jernigan
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
