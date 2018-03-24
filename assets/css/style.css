@@ -180,6 +180,32 @@ body {
     text-align: center;
     padding: 10px;
 }
+#img5 {
+    background: darkred url("../images/04-abstract-q-c-100-100-1.jpg");
+    height: 100px;
+    margin-top: 10px;
+}
+#project5{
+    background-color: darkblue;
+    color: silver;
+    opacity: .75;
+    margin:25px 15px 25px 10px;
+    text-align: center;
+    padding: 10px;
+}
+#img6 {
+    background: darkred url("../images/03-abstract-q-c-300-125-10.jpg");
+    height: 100px;
+    margin-top: 10px;
+}
+#project6{
+    background-color: darkblue;
+    color: silver;
+    opacity: .75;
+    margin:25px 15px 25px 10px;
+    text-align: center;
+    padding: 10px;
+}
 /*.col-xs-12 .navbar-header{*/
     /*width: 100%;*/
 
