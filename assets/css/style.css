@@ -170,3 +170,29 @@ body {
     text-align: center;
     padding: 10px;
 }
+#img8 {
+    background: darkred url("../images/03-abstract-q-c-300-125-10.jpg");
+    height: 100px;
+    margin-top: 10px;
+}
+#project8{
+    background-color: darkblue;
+    color: silver;
+    opacity: .75;
+    margin:25px 15px 25px 10px;
+    text-align: center;
+    padding: 10px;
+}
+#img9 {
+    background: darkred url("../images/03-abstract-q-c-300-125-10.jpg");
+    height: 100px;
+    margin-top: 10px;
+}
+#project9{
+    background-color: darkblue;
+    color: silver;
+    opacity: .75;
+    margin:25px 15px 25px 10px;
+    text-align: center;
+    padding: 10px;
+}
